@@ -12,7 +12,7 @@ body {
 
 /*Busca*/
 .card {
-  width: 100%;
+  width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
@@ -114,4 +114,46 @@ body {
   color: rgb(253, 77, 46);
   font-weight: 550;
   display: none;
+}
+
+/*Respossividade*/
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .search input {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .search button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .search button img {
+    width: 12px;
+  }
+
+  .weather-icon {
+    width: 120px;
+  }
+
+  .weather h1 {
+    font-size: 40px;
+  }
+
+  .weather h2 {
+    font-size: 24px;
+  }
+
+  .details {
+    gap: 15px;
+  }
+
+  .humidity, .wind {
+    font-size: 16px;
+  }
 }
