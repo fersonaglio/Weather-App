@@ -99,3 +99,18 @@ body {
   font-size: 20px;
   margin-top: -6px;
 }
+
+/*Weather esconder*/
+.weather {
+  display: none;
+}
+
+/*Error*/
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(253, 77, 46);
+  font-weight: 550;
+}
