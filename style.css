@@ -116,6 +116,13 @@ body {
   display: none;
 }
 
+/*Rodapé*/
+footer {
+  text-align: center;
+  font-size: 15px;
+  color: #ddd7d7;
+}
+
 /*Respossividade*/
 @media (max-width: 480px) {
   .card {
